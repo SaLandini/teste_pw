@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+
+html, body {
+    font-family: 'KoHo', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#um {
+    background: #9ee2f6;
+    color: #090731;
+    height: 100vh;
+    margin: 0;
+}
+
+#dois {
+    background: #27495c;
+    color: #ff6600;
+    height: 100vh;
+    margin: 0;
+}
+
+#tres {
+    background: black;
+    color: #312be2;
+    height: 100vh;
+    margin: 0;
+}
+
+#image {
+    visibility: hidden;
+}
+
+#image:target {
+    visibility: visible;
+    border: solid 1px aliceblue;
+    border-radius: 20px;
+}
+
+#ented_image {
+    color: black;
+    margin: 10px;
+}
+
+#ented_image_t {
+    color: aliceblue;
+}
+
+#image-area {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+#area {
+    width: 100%;
+    min-height: 60vh;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    html{
+        font-size: xx-large;
+    }
+    #butto{
+        font-size: xx-large;
+    }
+    #image{
+        width: 500px;
+    }
+    #image-area{
+        margin-top: 5%;
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+}
